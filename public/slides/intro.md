@@ -153,16 +153,6 @@
 
 ---
 
-## DeepSC Training Objectives
-
-- Cross-entropy preserves linguistic consistency.
-- Mutual information improves efficiency.
-- Both optimize semantic robustness.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
 ## DeepSC Evaluation
 
 - BERT similarity measures sentence meaning.
@@ -203,16 +193,6 @@
 
 ---
 
-## MLLM-SC Modules
-
-- MLLM guidance builds importance masks.
-- Dual-path encoder prioritizes regions.
-- Adaptive decoder reconstructs efficiently.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
 ## Reported Results
 
 - Critical regions received higher bandwidth.
@@ -248,26 +228,6 @@
 - SEC and task-SemCom align.
 - Both transmit latent features.
 - Both split edge intelligence.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
-## Three System Levels
-
-- Bit-level ensures symbol fidelity.
-- Semantic-level preserves intended meaning.
-- Task-level optimizes action success.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
-## Optimization Dimensions
-
-- System-level allocates resources dynamically.
-- Application-level compresses semantic features.
-- Physical-level adapts channel behavior.
 
 <div class="slide-author" data-name="Rishab Manocha"></div>
 
@@ -341,31 +301,11 @@
 
 ---
 
-## Proposed Direction 1
+## Proposed Direction
 
 - Use task-grounded evaluation metrics.
 - Measure action-level success rates.
 - Reduce reliance on proxies.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
-## Proposed Direction 2
-
-- Map known failure regimes.
-- Benchmark against classical baselines.
-- Test under strict budgets.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
-## Proposed Direction 3
-
-- Close perception-action optimization loop.
-- Train encoder with controller.
-- Target Level C outcomes.
 
 <div class="slide-author" data-name="Rishab Manocha"></div>
 
@@ -418,16 +358,8 @@
 - [1] Deep Learning Enabled Semantic Communication Systems.
 - [2] The Mathematical Theory of Communication.
 - [3] A Theory of Semantic Communication.
-
-<div class="slide-author" data-name="Rishab Manocha"></div>
-
----
-
-## References
-
 - [4] Semantic Edge Computing and Semantic Communications in 6G Networks.
 - [5] Multimodal LLM Integrated Semantic Communications for 6G Immersive Experiences.
-- Full citation details in paper.
 
 <div class="slide-author" data-name="Rishab Manocha"></div>
 

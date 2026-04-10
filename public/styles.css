@@ -15,3 +15,151 @@
 .slide-author {
     display: none;
 }
+
+/* Consistent black background */
+.reveal {
+    background: #000;
+}
+
+/* All text white */
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal p,
+.reveal li,
+.reveal td,
+.reveal th,
+.reveal strong,
+.reveal em,
+.reveal a,
+.reveal blockquote {
+    color: #fff;
+}
+
+/* Headers */
+.reveal h1 {
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: -0.02em;
+}
+
+.reveal h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 0.5em;
+}
+
+.reveal h3 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/* Strong/bold text - same color, just bold */
+.reveal strong {
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Table styling */
+.reveal table {
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-size: 0.62em;
+}
+
+.reveal table th {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.6em 1em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    color: #fff;
+}
+
+.reveal table td {
+    padding: 0.5em 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.reveal table tr:hover td {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Blockquotes */
+.reveal blockquote {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+    padding: 0.7em 1em;
+    margin: 0.6em 0;
+    font-style: italic;
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+}
+
+/* Lists */
+.reveal ul, .reveal ol {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.reveal li {
+    margin: 0.25em 0;
+    line-height: 1.25;
+    color: #fff;
+}
+
+/* Links - white with underline on hover */
+.reveal a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.reveal a:hover {
+    text-decoration: underline;
+}
+
+/* Better spacing for content-heavy slides */
+.reveal .slides > section {
+    padding: 10px;
+}
+
+/* Progress bar */
+.reveal .progress {
+    background: rgba(255, 255, 255, 0.1);
+    height: 4px;
+}
+
+.reveal .progress span {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Slide numbers */
+.reveal .slide-number {
+    font-size: 0.6em;
+    color: rgba(255, 255, 255, 0.4);
+    background: transparent;
+    right: 1.5em;
+    bottom: 1em;
+}
+
+/* Paragraph and list font size */
+.reveal p, .reveal li {
+    font-size: 0.68em;
+}
+
+.reveal p {
+    margin: 0.3em 0;
+    line-height: 1.2;
+}
+
+.reveal ul,
+.reveal ol {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
